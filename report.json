@@ -222,6 +222,15 @@
           "z": 10000.00
         },
         {
+          "config": "{\"name\":\"f52ddaa35f86206d1191\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100,\"y\":100,\"width\":300,\"height\":300,\"z\":13001,\"tabOrder\":12001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"tkr\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 300.00,
+          "width": 300.00,
+          "x": 100.00,
+          "y": 100.00,
+          "z": 13001.00
+        },
+        {
           "config": "{\"name\":\"f75ccefdbf45238a988d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":970,\"y\":10,\"z\":9000,\"width\":132.22222222222223,\"height\":82.22222222222221,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Net Long Term Debt INR cr.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3863'\"}}}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}},\"parentGroupName\":\"a08794d67c7f2c19920f\"}",
           "filters": "[]",
           "height": 82.22,
