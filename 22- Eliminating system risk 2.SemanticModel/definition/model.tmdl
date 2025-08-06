@@ -15,11 +15,7 @@ annotation PBI_QueryOrder = ["FY 13-25","Errors in FY 13-25","DirectQuery to AS 
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-<<<<<<< HEAD
 annotation PBIDesktopVersion = 2.145.1602.0 (25.07)+10647c9fa319b5e39936cdb21328038c371d1fe4
-=======
-annotation PBIDesktopVersion = 2.145.1105.0 (25.07)+decbc46fce458c5b8d5109d6f32a743f2ac949c8
->>>>>>> feature/report-update
 
 annotation PBI_ProTooling = ["DevMode"]
 

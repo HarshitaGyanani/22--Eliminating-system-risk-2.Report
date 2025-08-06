@@ -46,7 +46,6 @@
   ],
   "sections": [
     {
-<<<<<<< HEAD
       "config": "{\"relationships\":[{\"source\":\"8fe77139d2f4ed3723f1\",\"target\":\"c3a92e34cbb9cf7d00b3\",\"type\":3},{\"source\":\"8fe77139d2f4ed3723f1\",\"target\":\"58f1c919bc53ea392c60\",\"type\":3},{\"source\":\"edb1e524134700c099aa\",\"target\":\"c3a92e34cbb9cf7d00b3\",\"type\":3},{\"source\":\"58f1c919bc53ea392c60\",\"target\":\"c3a92e34cbb9cf7d00b3\",\"type\":3},{\"source\":\"1c945cb085d17ef7c88e\",\"target\":\"c3a92e34cbb9cf7d00b3\",\"type\":3},{\"source\":\"edb1e524134700c099aa\",\"target\":\"58f1c919bc53ea392c60\",\"type\":3},{\"source\":\"1c945cb085d17ef7c88e\",\"target\":\"58f1c919bc53ea392c60\",\"type\":3},{\"source\":\"8fe77139d2f4ed3723f1\",\"target\":\"edb1e524134700c099aa\",\"type\":3}],\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"397L\"}}}}}],\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}]}}",
       "displayName": "Aman",
       "displayOption": 1,
@@ -243,27 +242,6 @@
         }
       ],
       "width": 1415.00
-=======
-      "config": "{}",
-      "displayName": "Harshita",
-      "displayOption": 1,
-      "filters": "[]",
-      "height": 720.00,
-      "name": "71ba0905df4559b57537",
-      "ordinal": 1,
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"ad3ad764dd8448573790\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maturity Discipline FY25.Leverage Ratio\"},{\"queryRef\":\"Sum(Maturity Discipline FY25.Cash Balance)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maturity Discipline FY25\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Leverage Ratio\"},\"Name\":\"Maturity Discipline FY25.Leverage Ratio\",\"NativeReferenceName\":\"Leverage Ratio\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cash Balance\"}},\"Function\":0},\"Name\":\"Sum(Maturity Discipline FY25.Cash Balance)\",\"NativeReferenceName\":\"Sum of Cash Balance\"}]},\"drillFilterOtherVisuals\":true}}",
-          "filters": "[]",
-          "height": 280.00,
-          "width": 280.00,
-          "x": 10.00,
-          "y": 0.00,
-          "z": 0.00
-        }
-      ],
-      "width": 1280.00
->>>>>>> feature/report-update
     },
     {
       "config": "{\"relationships\":[{\"source\":\"2b2c7b2be3298a820839\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"2b2c7b2be3298a820839\",\"target\":\"82bd0ccc68bf8aaf13ce\",\"type\":3},{\"source\":\"12adc60e9810401689dd\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"82bd0ccc68bf8aaf13ce\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"1d592d62536de8c943fd\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"12adc60e9810401689dd\",\"target\":\"82bd0ccc68bf8aaf13ce\",\"type\":3},{\"source\":\"1d592d62536de8c943fd\",\"target\":\"82bd0ccc68bf8aaf13ce\",\"type\":3},{\"source\":\"2b2c7b2be3298a820839\",\"target\":\"12adc60e9810401689dd\",\"type\":3}],\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"397L\"}}}}}],\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}]}}",
