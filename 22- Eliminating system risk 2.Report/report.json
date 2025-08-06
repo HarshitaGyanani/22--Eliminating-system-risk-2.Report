@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":\"5.63\"},\"customTheme\":{\"name\":\"Custom6346448882463194.json\",\"type\":1,\"version\":\"5.63\"}},\"activeSectionIndex\":3,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true,\"filterPaneHiddenInEditMode\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":\"5.63\"},\"customTheme\":{\"name\":\"Custom6346448882463194.json\",\"type\":1,\"version\":\"5.63\"}},\"activeSectionIndex\":5,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true,\"filterPaneHiddenInEditMode\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
   "layoutOptimization": 0,
   "publicCustomVisuals": [
     "htmlContent443BE3AD55E043BF878BED274D3A6855"
@@ -250,7 +250,7 @@
       "filters": "[]",
       "height": 720.00,
       "name": "5657c6f108477cfe63b3",
-      "ordinal": 3,
+      "ordinal": 4,
       "visualContainers": [
         {
           "config": "{\"name\":\"2ce5dac26667b4b54f58\",\"layouts\":[{\"id\":0,\"position\":{\"x\":126.46505858028945,\"y\":123.0776016540317,\"z\":0,\"width\":280.02977257064094,\"height\":280.02977257064094,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"FY 13-25 2.GrossDebt_CAGR\"}],\"Category\":[{\"queryRef\":\"FY 13-25 2.Long Term Debt\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FY 13-25 2\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GrossDebt_CAGR\"},\"Name\":\"FY 13-25 2.GrossDebt_CAGR\",\"NativeReferenceName\":\"GrossDebt_CAGR\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Long Term Debt\"},\"Name\":\"FY 13-25 2.Long Term Debt\",\"NativeReferenceName\":\"Sum of Long Term Debt\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GrossDebt_CAGR\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
@@ -259,6 +259,27 @@
           "width": 280.03,
           "x": 126.47,
           "y": 123.08,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Aman 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "672a373c5c52c2df7671",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"f11b9955bb1cab8077ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maturity Discipline FY25.Leverage Ratio\"},{\"queryRef\":\"Sum(Maturity Discipline FY25.Cash Balance)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maturity Discipline FY25\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Leverage Ratio\"},\"Name\":\"Maturity Discipline FY25.Leverage Ratio\",\"NativeReferenceName\":\"Leverage Ratio\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cash Balance\"}},\"Function\":0},\"Name\":\"Sum(Maturity Discipline FY25.Cash Balance)\",\"NativeReferenceName\":\"Sum of Cash Balance\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
           "z": 0.00
         }
       ],
@@ -481,6 +502,27 @@
         }
       ],
       "width": 1415.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Duplicate of Harshita 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c993de199d0a8763e1f3",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"e4e0d4e48a3f47fe2f65\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maturity Discipline FY25.Leverage Ratio\"},{\"queryRef\":\"Sum(Maturity Discipline FY25.Cash Balance)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maturity Discipline FY25\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Leverage Ratio\"},\"Name\":\"Maturity Discipline FY25.Leverage Ratio\",\"NativeReferenceName\":\"Leverage Ratio\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cash Balance\"}},\"Function\":0},\"Name\":\"Sum(Maturity Discipline FY25.Cash Balance)\",\"NativeReferenceName\":\"Sum of Cash Balance\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
     }
   ],
   "theme": "Custom6346448882463194.json"
