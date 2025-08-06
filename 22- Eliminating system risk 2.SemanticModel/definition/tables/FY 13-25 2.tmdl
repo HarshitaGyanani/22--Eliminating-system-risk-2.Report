@@ -1,0 +1,55 @@
+table 'FY 13-25 2'
+	lineageTag: c0c79abd-fd38-4c23-9987-edfb2f6d5cfa
+	sourceLineageTag: e580d525-1eb7-4566-8d6e-978f9ffcf868
+
+	measure LongTermDebt_CAGR = EXTERNALMEASURE("LongTermDebt_CAGR", DOUBLE, "DirectQuery to AS - 22- Eliminating system risk 3")
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 4e3e1b50-10cd-4994-b9d3-46c5446ae5bc
+		sourceLineageTag: 7e7c8c63-d94b-46f2-89e0-e1ce474a6efb
+		dataCategory: Uncategorized
+
+	measure GrossDebt_CAGR = EXTERNALMEASURE("GrossDebt_CAGR", DOUBLE, "DirectQuery to AS - 22- Eliminating system risk 3")
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 18478576-bc55-413f-838f-726a514f40b6
+		sourceLineageTag: cbd82e28-7c73-467a-8447-0c601a7bba75
+		dataCategory: Uncategorized
+
+	column Year
+		dataType: string
+		isNullable: false
+		lineageTag: 6c3eef60-a1ab-400f-ab19-b1f3317ed1f5
+		sourceLineageTag: 319c3af4-1a7e-454c-bfd1-f46d2459999b
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column 'Long Term Debt'
+		dataType: double
+		formatString: #,0
+		lineageTag: 479d74dc-bf92-4d3e-8cf9-7063dba60514
+		sourceLineageTag: 7a6367b2-6d55-4f83-9b30-7c7cd0293aaa
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Long Term Debt
+
+		annotation SummarizationSetBy = User
+
+	column 'Short Term Debt'
+		dataType: double
+		formatString: #,0
+		lineageTag: ea4854de-65f6-4195-8362-f14b9c8fe15c
+		sourceLineageTag: 24e0f677-e797-4817-a050-5a850126ed25
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Short Term Debt
+
+		annotation SummarizationSetBy = User
+
+	partition 'FY 13-25 2' = entity
+		mode: directQuery
+		source
+			entityName: FY 13-25
+			expressionSource: 'DirectQuery to AS - 22- Eliminating system risk 3'
+

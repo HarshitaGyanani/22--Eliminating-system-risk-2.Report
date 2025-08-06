@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "22- Eliminating system risk 2"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7579030f-7571-4a36-999c-746ed083ff9f"
+  }
+}

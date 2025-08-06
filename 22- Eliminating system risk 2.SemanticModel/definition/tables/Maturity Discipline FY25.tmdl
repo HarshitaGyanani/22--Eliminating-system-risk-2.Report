@@ -1,0 +1,160 @@
+table 'Maturity Discipline FY25'
+	lineageTag: 44d7da9c-2e2d-4ebf-a5cb-32e584e3646c
+	sourceLineageTag: d57803bf-ccac-47b7-a2a5-907ed0628e42
+
+	column 'Leverage Ratio'
+		dataType: string
+		lineageTag: 1bcc2e05-2dc9-4a42-adae-788b103399ef
+		sourceLineageTag: 8c6644cd-01b4-44ee-af51-bbf1579e57a4
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Leverage Ratio
+		sortByColumn: Custom
+
+		annotation SummarizationSetBy = User
+
+	column 'Listed Entity'
+		dataType: string
+		lineageTag: 1eb4063d-99e8-4d30-8211-3857caf2a39f
+		sourceLineageTag: a09c1733-f442-4df8-bec8-ca77502f3feb
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Listed Entity
+		sortByColumn: 'sort entity'
+
+		annotation SummarizationSetBy = User
+
+	column 'Net Debt/ EBITDA'
+		dataType: double
+		formatString: 0
+		lineageTag: 6a847cdf-6942-457e-8b1f-153e1f0812ec
+		sourceLineageTag: 1c7eeaaa-29aa-4ab2-a332-5ca3c782e8b0
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Net Debt/ EBITDA
+
+		annotation SummarizationSetBy = User
+
+	column FFO
+		dataType: double
+		formatString: #,0
+		lineageTag: be9d6ded-59ab-4df9-99e2-161458a81c6d
+		sourceLineageTag: 048a0ee7-6a63-4549-83dd-1932bdb487d2
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: FFO
+
+		annotation SummarizationSetBy = User
+
+	column 'Cash Balance'
+		dataType: double
+		formatString: #,0
+		lineageTag: 7cd1aa31-ad1e-45cd-b740-c6def4cd09db
+		sourceLineageTag: 49d7e0ee-cb75-406d-a563-2fd69c03586c
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Cash Balance
+
+		annotation SummarizationSetBy = User
+
+	column 'Long Term Debt'
+		dataType: double
+		formatString: #,0
+		lineageTag: 5d87ea47-a231-42de-9b05-e1fd1f614a69
+		sourceLineageTag: b0417dd9-352d-4505-967e-b348911cccf5
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Long Term Debt
+
+		annotation SummarizationSetBy = User
+
+	column 'Net Long Term Debt'
+		dataType: double
+		formatString: #,0
+		lineageTag: e6518e69-5ba7-463c-a49f-eb5177d704d5
+		sourceLineageTag: 787e1be5-b70d-4cc9-b9e0-dba4eda1d26d
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Net Long Term Debt
+
+		annotation SummarizationSetBy = User
+
+	column 'LTD/FFO +Cash Cover'
+		dataType: double
+		lineageTag: 72b22405-3998-4e52-8077-469aa06265a7
+		sourceLineageTag: 24d88000-3c6c-40f9-9e95-f20e4168b618
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: LTD/FFO +Cash Cover
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Avg. Maturity of LTD'
+		dataType: double
+		formatString: 0.00
+		lineageTag: 41b12b2b-16c2-4343-909d-9fe23ba524bd
+		sourceLineageTag: 78f6e2db-5692-4700-8937-b4cf0bc4b218
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Avg. Maturity of LTD
+
+		annotation SummarizationSetBy = User
+
+	column Custom
+		dataType: string
+		lineageTag: d263b213-83fa-49c5-b77c-66353602c4ad
+		sourceLineageTag: b324088f-7c03-4b89-9110-e6b9e378bd43
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Custom
+
+		annotation SummarizationSetBy = User
+
+	column 'Net Debt/ RR EBITDA '
+		dataType: string
+		lineageTag: 93defffe-7ecd-40e4-82e8-97aac8d4ca79
+		sourceLineageTag: a391b855-358f-4788-a40c-032cf658b545
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: "Net Debt/ RR EBITDA "
+
+		annotation SummarizationSetBy = User
+
+	column 'Net LTD/FFO Cover.1'
+		dataType: string
+		lineageTag: 0bcaa16c-715b-4466-9966-61c7e6939c1d
+		sourceLineageTag: 86451509-b0e7-4003-8fa1-888dfa70878a
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Net LTD/FFO Cover.1
+
+		annotation SummarizationSetBy = User
+
+	column 'Leverage Ratio 1'
+		dataType: string
+		lineageTag: ed17936d-ca78-4a82-8c2b-cd8595806627
+		sourceLineageTag: 82d17e78-6081-4ab9-bd51-a49c455de843
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Leverage Ratio 1
+
+		annotation SummarizationSetBy = User
+
+	column 'sort entity'
+		dataType: string
+		lineageTag: d024cd81-f254-469c-8f0f-7b3dcbc647ee
+		sourceLineageTag: 2f34486e-3bd8-41e8-baa7-95d15ae3c225
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: sort entity
+
+		annotation SummarizationSetBy = User
+
+	partition 'Maturity Discipline FY25' = entity
+		mode: directQuery
+		source
+			entityName: Maturity Discipline FY25
+			expressionSource: 'DirectQuery to AS - 22- Eliminating system risk 3'
+
