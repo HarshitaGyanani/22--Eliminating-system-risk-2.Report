@@ -1,0 +1,6 @@
+relationship b14267b7-1c19-4817-bd8a-239307913185
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Cost of Debt'.Year
+	toColumn: 'FY 13-25 2'.Year
+

@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":\"5.63\"},\"customTheme\":{\"name\":\"Custom6346448882463194.json\",\"type\":1,\"version\":\"5.63\"}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true,\"filterPaneHiddenInEditMode\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":\"5.63\"},\"customTheme\":{\"name\":\"Custom6346448882463194.json\",\"type\":1,\"version\":\"5.63\"}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true,\"filterPaneHiddenInEditMode\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
   "layoutOptimization": 0,
   "publicCustomVisuals": [
     "htmlContent443BE3AD55E043BF878BED274D3A6855"
@@ -45,27 +45,6 @@
     }
   ],
   "sections": [
-    {
-      "config": "{}",
-      "displayName": "Page 1",
-      "displayOption": 1,
-      "filters": "[]",
-      "height": 720.00,
-      "name": "264ffda1ec00f7b0fbd3",
-      "ordinal": 1,
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"c6b83a411f6bd15beba5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Maturity Discipline FY25.Cash Balance)\"},{\"queryRef\":\"Maturity Discipline FY25.Leverage Ratio\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maturity Discipline FY25\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cash Balance\"}},\"Function\":0},\"Name\":\"Sum(Maturity Discipline FY25.Cash Balance)\",\"NativeReferenceName\":\"Sum of Cash Balance\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Leverage Ratio\"},\"Name\":\"Maturity Discipline FY25.Leverage Ratio\",\"NativeReferenceName\":\"Leverage Ratio\"}]},\"drillFilterOtherVisuals\":true}}",
-          "filters": "[]",
-          "height": 280.00,
-          "width": 280.00,
-          "x": 10.00,
-          "y": 0.00,
-          "z": 0.00
-        }
-      ],
-      "width": 1280.00
-    },
     {
       "config": "{\"relationships\":[{\"source\":\"2b2c7b2be3298a820839\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"2b2c7b2be3298a820839\",\"target\":\"82bd0ccc68bf8aaf13ce\",\"type\":3},{\"source\":\"12adc60e9810401689dd\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"82bd0ccc68bf8aaf13ce\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"1d592d62536de8c943fd\",\"target\":\"cd5322e57254c7f8d5da\",\"type\":3},{\"source\":\"12adc60e9810401689dd\",\"target\":\"82bd0ccc68bf8aaf13ce\",\"type\":3},{\"source\":\"1d592d62536de8c943fd\",\"target\":\"82bd0ccc68bf8aaf13ce\",\"type\":3},{\"source\":\"2b2c7b2be3298a820839\",\"target\":\"12adc60e9810401689dd\",\"type\":3}],\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"397L\"}}}}}],\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}]}}",
       "displayName": "Maturity Discipline FY25",
@@ -181,12 +160,12 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"a08794d67c7f2c19920f\",\"layouts\":[{\"id\":0,\"position\":{\"height\":403.1823569951757,\"width\":1409.2658855961406,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":2000}}],\"singleVisualGroup\":{\"displayName\":\"Group 3\",\"groupMode\":0}}",
+          "config": "{\"name\":\"a08794d67c7f2c19920f\",\"layouts\":[{\"id\":0,\"position\":{\"height\":403.1823569951757,\"width\":1409.2658855961406,\"x\":0,\"y\":0,\"z\":6500,\"tabOrder\":12001}}],\"singleVisualGroup\":{\"displayName\":\"Group 3\",\"groupMode\":0}}",
           "height": 403.18,
           "width": 1409.27,
           "x": 0.00,
           "y": 0.00,
-          "z": 1000.00
+          "z": 6500.00
         },
         {
           "config": "{\"name\":\"a3c0a559c1f3dc0e0d63\",\"layouts\":[{\"id\":0,\"position\":{\"x\":167.77777777777777,\"y\":17.77777777777778,\"z\":4000,\"width\":152.22222222222223,\"height\":80,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Listed Entity\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3863'\"}}}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}},\"parentGroupName\":\"a08794d67c7f2c19920f\"}",
@@ -243,15 +222,6 @@
           "z": 10000.00
         },
         {
-          "config": "{\"name\":\"f52ddaa35f86206d1191\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100,\"y\":100,\"width\":300,\"height\":300,\"z\":3000,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"tkr\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
-          "filters": "[]",
-          "height": 300.00,
-          "width": 300.00,
-          "x": 100.00,
-          "y": 100.00,
-          "z": 3000.00
-        },
-        {
           "config": "{\"name\":\"f75ccefdbf45238a988d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":970,\"y\":10,\"z\":9000,\"width\":132.22222222222223,\"height\":82.22222222222221,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Net Long Term Debt INR cr.\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#ffffff\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1F3863'\"}}}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}]}},\"parentGroupName\":\"a08794d67c7f2c19920f\"}",
           "filters": "[]",
           "height": 82.22,
@@ -261,13 +231,13 @@
           "z": 9000.00
         },
         {
-          "config": "{\"name\":\"f8d6dc4fef08684dedcd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":2000,\"width\":1415.3846153846152,\"height\":405.38461538461536,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "config": "{\"name\":\"f8d6dc4fef08684dedcd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":13000,\"width\":1415.3846153846152,\"height\":405.38461538461536,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
           "filters": "[]",
           "height": 405.38,
           "width": 1415.38,
           "x": 0.00,
           "y": 0.00,
-          "z": 2000.00
+          "z": 13000.00
         }
       ],
       "width": 1415.00

@@ -1,0 +1,124 @@
+table 'Cost of Debt'
+	lineageTag: 647015b0-5d08-4baf-9464-fd953b06a533
+	sourceLineageTag: 866e9e88-9dfc-499f-96c5-876a80623d30
+
+	column Year
+		dataType: string
+		isNullable: false
+		lineageTag: f7e06ab1-879c-4b73-a50d-7eaadada4c2e
+		sourceLineageTag: 2989a372-baea-4879-be30-eea5cd110027
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Year
+		sortByColumn: Sort
+
+		annotation SummarizationSetBy = User
+
+	column 'INR/ USD'
+		dataType: double
+		formatString: 0.00
+		lineageTag: 81300219-8a5b-419c-9ecc-1b52a6f3489e
+		sourceLineageTag: 637fde13-4aff-4ce5-856a-136d89003b2d
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: INR/ USD
+
+		annotation SummarizationSetBy = User
+
+	column 'US Treasury 10 yrs yield'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8316b8ea-ddb6-4ac2-a24e-17aba541e0cb
+		sourceLineageTag: e69e3ef3-157e-402b-8459-8afe26060130
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: US Treasury 10 yrs yield
+
+		annotation SummarizationSetBy = User
+
+	column 'Ind G Sec 10 yrs yield'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 55f61fad-fc29-44a0-9558-a3d633c269a1
+		sourceLineageTag: 159d693c-75ea-4fb7-8edb-99f3058f46e1
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Ind G Sec 10 yrs yield
+
+		annotation SummarizationSetBy = User
+
+	column 'Adani Portfolio: Finance Cost Paid/ Avg. Gross debt'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: f5ef1b0a-0cdb-4bff-bef4-5699ba5cb31a
+		sourceLineageTag: 44f28654-41f2-48ca-8fe6-27a87408dce7
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Adani Portfolio: Finance Cost Paid/ Avg. Gross debt
+
+		annotation SummarizationSetBy = User
+
+	column 'Finance cost paid'
+		dataType: double
+		lineageTag: 52adf540-f126-4604-935d-dafff2250a45
+		sourceLineageTag: d753c021-03e7-4dec-b3a3-4cef9b0b8255
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Finance cost paid
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Interest Income Received'
+		dataType: double
+		lineageTag: b58a7677-253f-4a4a-bca5-5af37f824569
+		sourceLineageTag: a41ed8d1-ba52-468e-a3a5-15f9bbb0f394
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Interest Income Received
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Gross debt'
+		dataType: double
+		formatString: #,0
+		lineageTag: a3dd6a9e-baf4-45ba-b766-9b34ff1e544d
+		sourceLineageTag: 7888bf38-41ce-44d1-bd16-5ba7c3c4bcf5
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Gross debt
+
+		annotation SummarizationSetBy = User
+
+	column 'Average Gross debt'
+		dataType: double
+		lineageTag: 4758039a-eaed-44db-8b90-f54abffdd1e1
+		sourceLineageTag: a13fa625-bfdc-42d4-ad72-36c526e1b7bb
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Average Gross debt
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Sort
+		dataType: int64
+		formatString: 0
+		lineageTag: 38810124-63ad-4cd3-ba1e-95b980fbae15
+		sourceLineageTag: 3efc2564-2ce2-4ed2-8870-1b05de9f4168
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Sort
+
+		annotation SummarizationSetBy = User
+
+	partition 'Cost of Debt' = entity
+		mode: directQuery
+		source
+			entityName: Cost of Debt
+			expressionSource: 'DirectQuery to AS - 22- Eliminating system risk 3'
+
